@@ -1,4 +1,4 @@
-import hyperscriptify from 'hyperscriptify';
+import hyperscriptify from '@drupal-jsx/hyperscriptify';
 
 export function main({ components, propsify, h, Fragment, render }) {
   componentsWithFragment = { ...components, 'drupal-html-fragment': Fragment };
