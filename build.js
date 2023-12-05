@@ -1,7 +1,7 @@
 import serializePropTypes from '@drupal-jsx/serialize-prop-types';
 
-export async function exportPropTypes(componentsFileOrFiles, outDir) {
-  const propTypes = await serializePropTypes(componentsFileOrFiles);
+export async function exportPropTypes(componentsFileOrFileMap, outDir) {
+  const propTypes = await serializePropTypes(componentsFileOrFileMap);
 
   console.log("Generating *.template-info.json files for Drupal...");
   for (const tagName in propTypes) {
