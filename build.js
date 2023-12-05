@@ -9,7 +9,7 @@ export async function exportPropTypes(componentsFileOrFileMap, outDir) {
       const drupalTemplateName = tagName.substring(7);
       const drupalTemplateFileName = `${outDir}/${drupalTemplateName}.template-info.json`;
       await Bun.write(drupalTemplateFileName, JSON.stringify({ props: propTypes[tagName] }));
-      console.log(templateFileName);
+      console.log(drupalTemplateFileName);
     }
   }
 }
