@@ -2,6 +2,7 @@
   "name": "@drupal-jsx/drupal-utils",
   "type": "module",
   "dependencies": {
-    "@drupal-jsx/hyperscriptify": "github:drupal-jsx/hyperscriptify"
+    "@drupal-jsx/hyperscriptify": "github:drupal-jsx/hyperscriptify",
+    "@drupal-jsx/serialize-prop-types": "github:drupal-jsx/serialize-prop-types"
   }
 }
