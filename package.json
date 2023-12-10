@@ -3,6 +3,7 @@
   "type": "module",
   "dependencies": {
     "@drupal-jsx/hyperscriptify": "github:drupal-jsx/hyperscriptify",
-    "just-kebab-case": "^4"
+    "just-kebab-case": "^4",
+    "just-map-values": "^3"
   }
 }
