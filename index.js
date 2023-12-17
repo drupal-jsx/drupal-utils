@@ -15,7 +15,7 @@ export function main({ components, propsify, h, Fragment, render }) {
   });
 }
 
-export function props(attributes = {}) {
+export function attributesToProps(attributes = {}) {
   attributes = mapValues(attributes, (value) => Array.isArray(value) ? value.join(' ') : value);
   return dependencies.propsify(attributes, {}, {});
 }
